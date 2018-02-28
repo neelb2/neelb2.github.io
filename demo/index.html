@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Neel Bhasin Professional Software Engineer">
+    <meta name="keywords" content="Neel Bhasin, Neel, neelb2, iOS, iOS Developer, mobile app developer, HTML5,CSS3">
+    <meta name="author" content="Neel Bhasin">
+
+    <title>Neel Bhasin</title>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="shortcut icon" href="pic/favicon.ico" type="image/x-icon">
+
+    <!--FONT-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="frame-scroll"></div>
+    <div class="frame-scroll-top"></div>
+    <div class="frame-scroll-bottom"></div>
+
+    <div class="container-scroll">
+
+        <!--MOBILE NAVIGATION-->
+
+        <div id="id-mobile-nav" class="mobile-nav">
+
+            <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+
+            <nav class="mobile-nav-links">
+                <a href="#id-about" onclick="closeNav()">about</a>
+                <a href="#id-recent" onclick="closeNav()">recent works</a>
+                <a href="#id-skills" onclick="closeNav()">skills</a>
+                <a href="#id-experience" onclick="closeNav()">experience</a>
+                <a href="#id-education" onclick="closeNav()">education</a>
+                <a href="#id-contacts" onclick="closeNav()">contacts</a>
+            </nav>
+
+            <div class="icons-mobile-nav-footer">
+                <a class="icon-linkedin-white" href="#"></a>
+                <a class="icon-behance-white" href="#"></a>
+                <a class="icon-dribble-white" href="#"></a>
+                <a class="icon-upwork-white" href="#"></a>
+            </div>
+
+        </div>
+
+        <div class="icon-mobile-nav" onclick="openNav()">
+            <div class="element-icon-nav"></div>
+            <div class="element-icon-nav"></div>
+            <div class="element-icon-nav"></div>
+        </div>
+
+        <!--MODAL PAGE RECENT WORKS-->
+
+        <div id="id-modal" class="modal">
+
+            <span class="close-btn-modal" onclick="closeModal()">&times;</span>
+
+            <div class="modal-content">
+
+                <div class="modal-img">
+                    <img src="pic/recent-img-big.jpg" alt="main recent work image">
+                    <p>Shopping mobile application UI</p>
+                </div>
+
+                <div class="modal-img">
+                    <img src="pic/recent-img-small-top.jpg" alt="second recent work image">
+                    <p>Air Balloon: Responsive animated Error 404 template, available for purchase at only $8 on <a href="#">Themeforest.net</a></p>
+                </div>
+
+                <div class="modal-img">
+                    <img src="pic/recent-img-small-bottom-1.jpg" alt="third recent work image">
+                    <p>HR dashboard concept</p>
+                </div>
+
+                <div class="modal-img">
+                    <img src="pic/recent-img-small-bottom-2.jpg" alt="fourth recent work image">
+                    <p>Responsive e-commerce website for florist's business. See more on <a href="#">Behance</a>.</p>
+                </div>
+
+                <a class="modal-img-prev" onclick="nextImg(-1)">&#10094;</a>
+                <a class="modal-img-next" onclick="nextImg(1)">&#10095;</a>
+
+            </div>
+
+        </div>
+
+        <main>
+
+            <!--Navigation-->
+
+            <nav class="nav-top">
+                <a href="#id-about">about</a>
+                <a href="#id-recent">recent works</a>
+                <a href="#id-skills">skills</a>
+                <a href="#id-experience">experience</a>
+                <a href="#id-education">education</a>
+                <a href="#id-contacts">contacts</a>
+            </nav>
+
+            <!--INTRO-->
+
+            <div class="intro">
+
+                <div class="intro-photo-icons">
+
+                    <div class="photo"></div>
+
+                    <div class="icons">
+                        <a class="icon-linkedin" href="#"></a>
+                        <a class="icon-behance" href="#"></a>
+                        <a class="icon-dribble" href="#"></a>
+                        <a class="icon-upwork" href="#"></a>
+                    </div>
+
+                </div>
+
+                <div class="intro-text-cv">
+
+                    <div class="text-heading">
+                        <h2>Hello,</h2>
+                        <h2>I'm <span>Neel</span></h2>
+                        <h3>Mobile App Developer</h3>
+                    </div>
+
+                    <div class="text-onepage">
+                        <!-- <p>For more then 5 years in Mobile App Development</p>
+                        <p>I worked a lot with big enterprise applications and small start-ups.</p>
+                        <p>I know well how to create perfect design for every needs.</p>
+                        <p>Take a look at my <span class='text-onepage-btn' onclick="openModal();currentImage(1)">recent works</span>
+                            You can hire me on <a class='text-onepage-btn' href="#">Upwork</a></p>
+                        <p>Feel free to contact me <a class='text-onepage-btn' href="mailto:your.mail@example.com">your.mail@example.com</a></p> -->
+                    </div>
+
+                    <div class="container-cv-btn">
+                        <a class="cv-button-wide" href="resume/resume_template.docx">Download CV</a>
+                    </div>
+
+                    <div class="icons icons-tablet">
+                        <a class="icon-linkedin" href="#"></a>
+                        <a class="icon-behance" href="#"></a>
+                        <a class="icon-dribble" href="#"></a>
+                        <a class="icon-upwork" href="#"></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--ABOUT-->
+
+            <section id='id-about' class="about">
+                <div class="about-container">
+                    <h2>About</h2>
+                    <div class="text-about">
+                        <p>I enjoy bold minimalist design for landing pages, marketing stuff and mobile apps.</p>
+                        <p>I'm focused on user experience as I think it's really essential in changing environment. I know HTML/CSS at basic level, to keep my work consistent.</p>
+                        <p>I have worked for various companies both in the office and from home, on long-term projects and on multiple tasks at a time. OneAccess, Sephora, Skolkovo Technopark are just some of my clients. My clients mostly are from USA and we have no communication issues, my English is fluent. Tasks are really different. I worked a lot with big enterprise applications and know well how to handle them.</p>
+                        <p>I use Adobe tools professionally, Photoshop and Illustrator are my favorite. I also know Dreamweaver, Adobe After Effects and Indesign, prototyping tools (InVision, Sketch), workflows, user stories and mockups (Balsamiq). I can make a complicated application/website design from scratch.</p>
+                        <p>My education is connected with Biology and Psychology. I worked for 2 years as psychologist after my graduation. Deep knowledge in this area really helps me to predict and affect user's behaviour. I know what catches one's attention and keep it, how to make people buy things.</p>
+                        <p>I regular upgrading my UI/UX design skills and knowledges in related design fields - hand lettering, fashion illustration, watercolor painting and stock photography. I'm really happy when project require something above average.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--RECENT WORKS-->
+
+            <section id='id-recent' class="recent">
+
+                <div class="recent-container">
+
+                    <h2>Recent works</h2>
+
+                    <div class="recent-img">
+                        <div class="recent-img-big" onclick="openModal();currentImage(1)"></div>
+                        <div class="recent-img-small">
+                            <div class="recent-img-small-top" onclick="openModal();currentImage(2)"></div>
+                            <div class="recent-img-small-bottom-1" onclick="openModal();currentImage(3)"></div>
+                            <div class="recent-img-small-bottom-2" onclick="openModal();currentImage(4)"></div>
+                        </div>
+                    </div>
+
+                    <div class="icons icons-recent">
+                        <p>See more at:</p>
+                        <a class="icon-behance" href="#"></a>
+                        <a class="icon-dribble" href="#"></a>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!--SKILLS-->
+
+            <section id='id-skills' class="skills">
+
+                <div class="skills-container">
+
+                    <div class="skills-tools">
+
+                        <h3>tools</h3>
+
+                        <ul class="list-tools">
+                            <li class="list-tools-adobe">Photoshop, Illustrator</li>
+                            <li class="list-tools-sketch">Sketch, Invision</li>
+                            <li class="list-tools-ux">Balsamiq, Microsoft Visio</li>
+                            <li class="list-tools-pm">Jira, Trello, Slack, RedPen, Basecamp</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="skills-skills">
+
+                        <h3>skills</h3>
+
+                        <ul class="list-skills">
+                            <li>User experience</li>
+                            <li>Visual design</li>
+                            <li>Interaction design</li>
+                            <li>Prototyping</li>
+                            <li>Web & mobile apps design</li>
+                            <li>Icons & illustrations</li>
+                            <li>Branding</li>
+                            <li>Visual guidelines and developers support</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="skills-languages">
+
+                        <h3>languages</h3>
+
+                        <ul class="list-languages">
+                            <li>English - native</li>
+                            <li>German - advanced spoken and written</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!--EXPERIENCE-->
+
+            <section id='id-experience' class="experience">
+
+                <div class="exp-container">
+
+                    <h2>Experience</h2>
+
+                    <div>
+                        <p class="exp-time">July-August 2017</p>
+                        <h4>Advanced Application</h4>
+                        <p>Shopping mobile application with gamification features</p>
+                        <p class="exp-feature">Design concept</p>
+                        <p class="exp-feature">Mobile app UI</p>
+                    </div>
+
+                    <div>
+                        <p class="exp-time">May-June 2017</p>
+                        <h4>MMOCubes</h4>
+                        <p>Game Social Platform with modern design</p>
+                        <p class="exp-feature">Design concept</p>
+                        <p class="exp-feature">User interface design</p>
+                        <p class="exp-feature">Design support, guidelines, cleanup</p>
+                    </div>
+
+                    <div>
+                        <p class="exp-time">January-April 2017</p>
+                        <h4>Infine, Inc</h4>
+                        <p>DeepBlueBpm Workflow/BPM product</p>
+                        <p class="exp-feature">UI audit of the application</p>
+                        <p class="exp-feature">Landing page design</p>
+                        <p class="exp-feature">Video overview</p>
+                    </div>
+
+                    <div>
+                        <p class="exp-time">December 2015 - September 2016</p>
+                        <h4>Visible Theta, LLC</h4>
+                        <p>www.oneplus.io — broker event managing application</p>
+                        <p class="exp-feature">UI/UX design</p>
+                        <p class="exp-feature">visual guidelines</p>
+                    </div>
+
+                    <div>
+                        <p class="exp-time">June 2014 - September 2016</p>
+                        <h4>Imex Software GmbH, Austria</h4>
+                        <p>Lead Designer on multiple projects</p>
+                        <p class="exp-feature">web design</p>
+                        <p class="exp-feature">mobile design</p>
+                        <p class="exp-feature">UI</p>
+                        <p class="exp-feature">UX</p>
+                        <p class="exp-feature">visual design</p>
+                        <p class="exp-feature">visual guidelines</p>
+                        <p class="exp-feature">ensure consistent design implementation</p>
+                    </div>
+
+                    <div>
+                        <p class="exp-time">July 2011 - June 2013</p>
+                        <h4>EPIX Systems, U.S.</h4>
+                        <p>UI Designer/Information architect on multiple projects</p>
+                        <p class="exp-feature">web design</p>
+                        <p class="exp-feature">mobile design</p>
+                        <p class="exp-feature">UI</p>
+                        <p class="exp-feature">UX</p>
+                        <p class="exp-feature">visual design</p>
+                        <p class="exp-feature">visual guidelines</p>
+                        <p class="exp-feature">icons, illustrations</p>
+                        <p class="exp-feature">printables</p>
+                        <p class="exp-feature">infographic</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--EDUCATION-->
+
+            <section id='id-education' class="education">
+
+                <div class="edu-container">
+
+                    <h2>Education</h2>
+
+                    <div class="edu-text">
+                        <h4>BSc Psychology & Biology</h4>
+                        <p>Yale University</p>
+                        <p>New Haven, Connecticut, U.S.</p>
+                        <p>2001-2005</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--CERTIFICATES-->
+
+            <section class="certificates">
+
+                <div class="cert-container">
+
+                    <h2>Certificates</h2>
+
+                    <div class="cert-item">
+                        <h4>Visual design</h4>
+                        <p>College of Art And Design</p>
+                        <p>online</p>
+                        <p>2007-2008</p>
+                    </div>
+
+                    <div class="cert-item">
+                        <h4>German</h4>
+                        <p>Goethe Institut</p>
+                        <p>Munich, Germany</p>
+                        <p>2005-2006</p>
+                    </div>
+
+                    <div class="cert-item">
+                        <h4>HTML/CSS (basic)</h4>
+                        <p>EPIX Systems internal training</p>
+                        <p>Newtown, Pennsylvania, U.S.</p>
+                        <p>2012</p>
+                    </div>
+
+                    <div class="cert-item">
+                        <h4>German with native speaker</h4>
+                        <p>EPIX Systems internal training</p>
+                        <p>Newtown, Pennsylvania, U.S.</p>
+                        <p>2013</p>
+                    </div>
+
+                    <div class="cert-item">
+                        <h4>Commercial Fashion Illustration</h4>
+                        <p>online</p>
+                        <p>2016</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--CONTACTS-->
+
+            <section id='id-contacts' class="contacts">
+                <div class="contacts-container">
+                    <div class="contacts-heading">
+                        <h2>Contacts</h2>
+                        <div class="icons">
+                            <a class="icon-linkedin" href="#"></a>
+                            <a class="icon-behance" href="#"></a>
+                            <a class="icon-dribble" href="#"></a>
+                            <a class="icon-upwork" href="#"></a>
+                            <a class="icon-fb" href="#"></a>
+                            <a class="icon-inst" href="#"></a>
+                        </div>
+                    </div>
+
+                    <div class="text-contacts">
+                        <p class="contact-mail"><a href="mailto:your.mail@example.com">your.mail@example.com</a></p>
+                        <p class="contact-skype">masha.thompson</p>
+                        <p class="contact-viber">+1-234-567-8900 (Viber, phone)</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+
+    <script>
+
+        // Mobile Navigation
+
+        function openNav() {
+            document.getElementById("id-mobile-nav").style.width = "90%";
+            document.getElementById("id-mobile-nav").style.border = "1px solid white";
+        }
+
+        function closeNav() {
+            document.getElementById("id-mobile-nav").style.width = "0";
+            document.getElementById("id-mobile-nav").style.border = "none";
+        }
+
+
+        // Modal
+
+        function openModal() {
+            document.getElementById('id-modal').style.display = "flex";
+        }
+
+        function closeModal() {
+            document.getElementById('id-modal').style.display = "none";
+        }
+
+        var imgIndex = 1;
+        showImage(imgIndex);
+
+        function nextImg(n) {
+            showImage(imgIndex += n);
+        }
+
+        function currentImage(n) {
+            showImage(imgIndex = n);
+        }
+
+        function showImage(n) {
+            var i;
+            var images = document.getElementsByClassName("modal-img");
+            if (n > images.length) {imgIndex = 1}
+            if (n < 1) {imgIndex = images.length}
+            for (i = 0; i < images.length; i++) {
+                images[i].style.display = "none";
+            }
+            images[imgIndex-1].style.display = "block";
+        }
+
+    </script>
+
+</body>
+</html>
